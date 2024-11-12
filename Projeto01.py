@@ -1,0 +1,6 @@
+print('=-='*15)
+print('Gerador de nomes de banda')
+print('=-='*15)
+cidade=str(input('Onde você nasceu? \n'))
+pet=str(input('Qual o nome do seu animal de estimação? \n'))
+print('O nome da sua banda é: '+ cidade+ ' ' + pet)
