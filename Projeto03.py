@@ -34,7 +34,7 @@ if escolha1=='esquerda':
               'Uma [0;31mVermelha\n'
               'Uma Amarela\n'
               'e uma Azul\n'
-              'Qual você escolhe? \n'))
+              'Qual você escolhe? \n')).lower()
        if escolha3=='vermelho':
         print('É uma sala cheia de fogo!. FIM DE JOGO')
        elif escolha3=='azul':
